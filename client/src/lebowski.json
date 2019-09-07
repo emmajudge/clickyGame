@@ -1,9 +1,0 @@
-[
-    {
-        "id": 1,
-        "name": "Dude",
-        "image": "../public/assets/images/dude.jpg",
-        "initialState": "neverClicked", 
-        "currentState": ""
-    }
-]
