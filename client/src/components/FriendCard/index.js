@@ -17,25 +17,15 @@ props={
 function FriendCard(props) {
   return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong> {props.occupation}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
-        </ul>
-      </div>
+     
+        <img alt={props.name} className="card-img-top" src={props.image} />
+      
+      
       <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
+        click
       </span>
+   
+   
     </div>
   );
 }

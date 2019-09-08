@@ -1,47 +1,32 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 325px;
+  height: 295px;
   margin: 1rem;
   position: relative;
-  width: 325px;
+  width: 295px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
 
-.card > .img-container {
-  height: 60%;
-  overflow: hidden;
-  text-align: center;
-  background:#6CADDC;
-}
 .card > .img-container > img {
-  width: 60%
-}
-
-.card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
-}
-
-.card > .content > ul {
-  list-style-type: none;
-}
-
-.card > .content > ul > li {
-  margin-top: 18px;
+  background-size:cover;
+  background-position:50%;
+  height:155px;
+  width:155px;
+  border:5px solid #f1f1f1;
+  border-radius:3px;
 }
 
 .card > .remove {
-  color: #ff1744;
+  color:#664da5;
   font-size: 48px;
   position: absolute;
-  top: -20px;
-  right: 5px;
+  bottom: -10px;
+  right: 105px;
   cursor: pointer;
 }
 
 .card > .remove:hover {
-  color: #d50000;
-}
+  color:#5a4492cc;
+} 

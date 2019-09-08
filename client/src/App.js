@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
+import Jumbotron from "./components/Jumbotron";
 import Title from "./components/Title";
 import friends from "./friends.json";
 
@@ -86,11 +87,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-
-        <Title    >Friends List</Title>
-
-        Current Score: {this.state.currentScore} High Score: {this.state.highScore}
-
+        <Jumbotron></Jumbotron>
+        <Title> Current Score: {this.state.currentScore}  |  High Score: {this.state.highScore}</Title>
+       
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
