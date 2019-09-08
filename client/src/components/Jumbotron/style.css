@@ -1,0 +1,12 @@
+div.jumbotron {
+  padding-top: 50px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: #513b88;
+  margin-bottom: 50px;
+  background-image: url("./marbled.jpg")
+}
+.jumbotron > h1{
+  font-size: 80px;
+}
